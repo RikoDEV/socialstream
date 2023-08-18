@@ -1,6 +1,6 @@
 <?php
 
-namespace JoelButcher\Socialstream\Http\Livewire;
+namespace JoelButcher\Socialstream\Livewire;
 
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Collection;

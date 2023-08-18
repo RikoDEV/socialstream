@@ -1,6 +1,6 @@
 <?php
 
-namespace JoelButcher\Socialstream\Http\Livewire;
+namespace JoelButcher\Socialstream\Livewire;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\View\View;
@@ -33,7 +33,7 @@ class SetPasswordForm extends Component
             'password_confirmation' => '',
         ];
 
-        $this->emit('saved');
+        $this->dispatch('saved');
     }
 
     /**

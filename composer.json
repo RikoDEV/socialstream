@@ -31,7 +31,7 @@
         "php": "^8.1",
         "doctrine/dbal": "^3.0",
         "illuminate/support": "^10.0",
-        "laravel/jetstream": "^3.0",
+        "laravel/jetstream": "^3.0 || dev-feat/livewire-3",
         "laravel/socialite": "^5.6"
     },
     "require-dev": {
